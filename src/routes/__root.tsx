@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "aman" },
+      { name: "description", content: "A modern personal portfolio website showcasing a web developer's projects, skills, and contact information." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "aman" },
+      { property: "og:description", content: "A modern personal portfolio website showcasing a web developer's projects, skills, and contact information." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "aman" },
+      { name: "twitter:description", content: "A modern personal portfolio website showcasing a web developer's projects, skills, and contact information." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae85ef30-2ef2-4b4a-befb-d5ac05cf35d5/id-preview-724833ea--ee946ddf-162b-4e12-beeb-72273293ebc4.lovable.app-1777296515453.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ae85ef30-2ef2-4b4a-befb-d5ac05cf35d5/id-preview-724833ea--ee946ddf-162b-4e12-beeb-72273293ebc4.lovable.app-1777296515453.png" },
     ],
     links: [
       {
