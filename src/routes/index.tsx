@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { WhatIDo } from "@/components/WhatIDo";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
 import { Contact } from "@/components/Contact";
@@ -8,17 +9,17 @@ import { Contact } from "@/components/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aman Singh — Web Developer Portfolio" },
+      { title: "Aman Kumar Singh — Web Developer Portfolio" },
       {
         name: "description",
         content:
-          "Aman Singh is a web developer building and maintaining live production websites with HTML, CSS, JavaScript, Supabase, FTP and hosting.",
+          "Aman Kumar Singh — Web Developer with hands-on experience working on live production websites. HTML, CSS, JavaScript, Supabase, FTP and hosting (Hostinger, GoDaddy).",
       },
-      { property: "og:title", content: "Aman Singh — Web Developer Portfolio" },
+      { property: "og:title", content: "Aman Kumar Singh — Web Developer Portfolio" },
       {
         property: "og:description",
         content:
-          "Web developer with hands-on experience shipping real websites — FTP deploys, hosting, content updates and AI-augmented workflows.",
+          "Web developer experienced with live production websites — FTP deployment, hosting, content updates and Supabase backends.",
       },
       { property: "og:type", content: "website" },
     ],
@@ -32,6 +33,7 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <WhatIDo />
         <Projects />
         <Skills />
         <Contact />

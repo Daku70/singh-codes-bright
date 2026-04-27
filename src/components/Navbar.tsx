@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 const links = [
   { href: "#about", label: "About" },
+  { href: "#what-i-do", label: "What I Do" },
   { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
   { href: "#contact", label: "Contact" },
@@ -28,7 +29,7 @@ export function Navbar() {
           <span className="h-8 w-8 rounded-lg bg-gradient-accent grid place-items-center font-mono font-bold text-primary-foreground shadow-glow">
             A
           </span>
-          <span className="font-semibold tracking-tight">Aman Singh</span>
+          <span className="font-semibold tracking-tight">Aman Kumar Singh</span>
         </a>
         <ul className="hidden md:flex items-center gap-1 text-sm">
           {links.map((l) => (
